@@ -9,10 +9,9 @@ This project extensively leveraged the powerful capabilities of **Python** to co
 ## 3- Statistical Analysis
 1. **Shapiro Wilk Test:** It measures how well the data fits a normal distribution. A value close to 1 indicates that the data will likely be normally distributed.
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/shapiro.png">
-- W-statistic (0.20982051): far from 1, indicating a poor fit to the normal distribution.
+-   W-statistic (0.20982051): far from 1, indicating a poor fit to the normal distribution.
 
-  
-- p-value (0.0): This is the probability of obtaining the observed test results under the null hypothesis (that the data is normally distributed). A small p-value (≤ 0.05) indicates strong evidence against the null hypothesis.
+-   p-value (0.0): This is the probability of obtaining the observed test results under the null hypothesis (that the data is normally distributed). A small p-value (≤ 0.05) indicates strong evidence against the null hypothesis.
 
 2. **KS test:** 
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/KS.png">
