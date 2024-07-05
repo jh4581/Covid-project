@@ -8,7 +8,7 @@ This project extensively leveraged the powerful capabilities of **Python** to co
 
 ## 3- Statistical Analysis
 1. **Shapiro Wilk Test:** is a statistical test used to assess the normality of a data sample. 
-<img width="800" alt="image" src="[images/covid project/shapiro.png](https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/shapiro.png)">
+<img width="800" alt="image" src="[https://github.com/jh4581/resume-projects-portfolio.github.io/tree/main/images/covid project/shapiro.png)">
 <img width="600" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/univariate1.png">
 
 2. **KS test:** Because Shapiro Wilk test is more accurate for smaller sample size, so I used other normality test like Kolmogorov-Smirnov test to confirm the results.
