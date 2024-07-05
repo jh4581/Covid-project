@@ -4,16 +4,20 @@
 By analyzing the relationship and the trend between the **Covid-19 pandemic** and **vaccination rates** and projecting vaccination rates in the United States and Canada **over the next 50 days**, Public health officials can use the projections to develop or adjust vaccination policies and strategies, ensuring that resources are allocated efficiently and effectively. **Projections and scenario planning(best-case, worst-case)** can help in preparing for **potential future waves of the pandemic** by ensuring that a significant portion of the population is vaccinated in time.
 
 ## 2- Technical Highlights
-This project extensively leveraged the powerful capabilities of **Python** to conduct a comprehensive range of tasks including meticulous data cleaning, sophisticated preprocessing techniques, intricate modeling, and creating detailed, insightful visualizations achieved by using **Pandas, Numpy, Scikit-learn, Matplotlib, and Seaborn** to handle and interpret the dataset effectively. In predictive modeling, I chose auto **ARIMA Model(Auto-Regressive Integrated Moving Average)** to perform highly effecitve for **time series analysis and forecasting**.
+This project extensively leveraged the powerful capabilities of **Python** to conduct a comprehensive range of tasks including meticulous data cleaning, sophisticated preprocessing techniques, intricate modeling, and creating detailed, insightful visualizations achieved by using **Pandas, Numpy, Scikit-learn, Matplotlib, and Seaborn** to handle and interpret the dataset effectively. In predictive modeling, I chose auto **ARIMA Model(Auto-Regressive Integrated Moving Average)** to perform highly effectively for **time series analysis and forecasting**.
 
 ## 3- Statistical Analysis
-1. **Shapiro Wilk Test:** is a statistical test used to assess the normality of a data sample. 
+1. **Shapiro Wilk Test:** It measures how well the data fits a normal distribution. A value close to 1 indicates that the data will likely be normally distributed.
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/shapiro.png">
-<img width="600" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/autoarima%20us.png">
+- W-statistic (0.20982051): far from 1, indicating a poor fit to the normal distribution.
+  
+- p-value (0.0): This is the probability of obtaining the observed test results under the null hypothesis (that the data is normally distributed). A small p-value (≤ 0.05) indicates strong evidence against the null hypothesis.
 
-2. **KS test:** Because Shapiro Wilk test is more accurate for smaller sample size, so I used other normality test like Kolmogorov-Smirnov test to confirm the results.
-<img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/Multi.png">
-<img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/Multi1.png">
+2. **KS test:** 
+<img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/KS.png">
+
+- Because the Shapiro Wilk test is more accurate for smaller sample sizes, I used another normality test like the Kolmogorov-Smirnov test to confirm the results.
+- P value ≤ confidential level, we have to reject the null. Both cases are not normalized. 
 
 
 When considering the factors contributing to the probability of default, DELINQ, DEBTINC, NINQ,  DEROG, and VALUE emerge as the most significant predictors. DEBTINC, or the debt-to-income ratio, underscores the importance of a customer's financial burden in evaluating credit risk. DELINQ (number of delinquent credit lines), NINQ (number of recent credit inquiries), NINQ (number of recent credit inquiries), and DEROG (number of major derogatory reports) exhibit a positive correlation with default probability. These factors are indicative of recent financial stress or mismanagement, which can signal a higher risk of default. However, the 'VALUE' of an asset has a negative correlation with default probability. This is because a higher property value can provide a financial safety net, enabling borrowers to access equity in tough times instead of defaulting. It also suggests that the borrower may have greater financial stability and more to lose by defaulting, thereby providing a strong incentive to maintain their loan payments. However, this relationship can be influenced by market conditions and the borrower's overall financial health, underscoring the importance of a multifaceted risk assessment.
