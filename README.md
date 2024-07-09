@@ -23,9 +23,30 @@ This project extensively leveraged the powerful capabilities of **Python** to co
 
 - The distribution for 'total vaccinations' and 'people fully vaccinated' might be right-skewed because as vaccines become more widespread, more people accept and get vaccinated.
 
-3. **Adfuller test and autocorrelation:**
-<img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20corr.png">
+3. **Augmented Dickey-Fuller (ADF) test and autocorrelation:**
+<img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20adf%20code.png">
+<img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20adf.png">
 
+***Purpose:***
+  - The Augmented Dickey-Fuller (ADF) test is a common statistical test used to determine if a time series is stationary.
+  - A stationary time series has a consistent mean and variance over time, making it easier to predict future values accurately.
+  - In stationary time series, the autocorrelations between observations depend only on the lag between them and not on when they occur. This simplifies the modeling process and helps in making robust predictions.
+    
+- ***Original Series:***
+  - The time series exhibits a clear upward trend, indicating non-stationary.
+  - The ACF plot shows high autocorrelation at multiple lags, confirming the original series's non-stationary nature.
+    
+- ***1st Order Differencing:***
+  - The trend is significantly reduced, and the series appears to fluctuate around a constant mean, indicating that some degree of stationarity has been achieved.
+  - The ACF plot shows a significant drop in autocorrelation at lag 1, but there are still notable autocorrelations at higher lags. This suggests that while the first differencing has addressed some non-stationarity, the series might still have some autocorrelation structure.
+
+- ***2nd Order Differencing:***
+  - The second differenced series appears more stationary with smaller fluctuations around the mean.
+  - The ACF plot shows a further reduction in autocorrelation. Although there are still some significant spikes, they are less pronounced compared to the 1st order differencing. This indicates that the second differencing has further reduced any remaining non-stationarity.
+    
+- ***3rd Order Differencing:***
+  - The third differenced series shows a slight improvement in stationarity, with fluctuations that appear more random around the mean.
+  - The ACF plot shows minimal significant autocorrelations, suggesting that the series is now quite stationary. The spikes are much less pronounced, indicating that most of the autocorrelation has been removed.
    
 ## 4- Model Selection(ARIMA Model)
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/autoarima%20us.png">
