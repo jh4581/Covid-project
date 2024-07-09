@@ -49,10 +49,17 @@ This project extensively leveraged the powerful capabilities of **Python** to co
   - The ACF plot shows minimal significant autocorrelations, suggesting that the series is now quite stationary. The spikes are much less pronounced, indicating that most of the autocorrelation has been removed.
    
 ## 4- Model Selection(ARIMA Model)
+- ARIMA model explanations:
+  - AR (Auto-Regressive) part: Number of lag observations included in the model (p).
+  - I (Integrated) part: Number of differencing of raw observations to make the time series stationary (d).
+  - MA (Moving Average) part: Number of lagged forecast errors included in the model (q).
+    
+- AutoARIMA model:
+  - Purpose of use: To simplify the process of hyperparameter tuning by automatically selecting the best parameters(p,d,q)
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/autoarima%20us.png">
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20model%20result.png">
 
-
+We choose the best model ARIMA(4,2,4) in this case.
 
 ### 5- Model forecast
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20forecast.png">
