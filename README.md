@@ -71,13 +71,24 @@ After choosing the most appropriate model, I made a forecast for the best case a
   
 ***Forecast:***
 - The orange line represents the forecasted vaccination rates for the next 50 periods.
-The forecast continues the upward trend, suggesting that the number of vaccinations is expected to keep increasing.
+- The forecast continues the upward trend, suggesting that the number of vaccinations is expected to keep increasing.
+- The reasons might be the following:
+  1. Manufacturers have increased vaccine production, leading to more doses being available over time.
+  2. Increased efforts to raise awareness about the importance and safety of vaccines encourage more people to get vaccinated.
+  3. Policies such as vaccine mandates for certain sectors or incentives for getting vaccinated can increase uptake.
 
 <img width="1000" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/base%20case.png">
 
+***Base-Case Scenario:*** shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days will increase from the first day (282622 people get vaccinated) to the final day (1806515 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 8341135 people get vaccinated 
+This base scenario data frame (right-side column) shows that the predicted total number of people who get vaccinated from the  beginning until the next 50 days is 236321400 for the whole period from the beginning to the next 50 days. 
+ 
 <img width="1000" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/best%20case.png">
-- Best-Case Scenario: shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days will increase from the first day (282622 people get vaccinated) to the final day (2318170 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 20822310 people get vaccinated 
+
+***Best-Case Scenario:*** shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days will increase from the first day (282622 people get vaccinated) to the final day (2318170 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 20822310 people get vaccinated. 
 This best-case scenario data frame (right-side column) shows that the predicted total number of people who get vaccinated from the very beginning until the next 50 days is 248802500 for the whole period from the beginning to the next 50 days. 
+
 <img width="1000" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/worst%20case.png">
 
+***Worst-Case Scenario:*** which shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days changed from the first day (78409 people get vaccinated) to the 21st day(0 people vaccinated lasted to the final day). In other words, from now on to the next 50 days, there will be 0 people getting vaccinated.
+This worst-case scenario data frame (right-side column) shows that the predicted total number of people who get vaccinated from the beginning which is 228058700 until the next 50 days is 227992400 for the whole time from the beginning to the next 50 days. 
 
