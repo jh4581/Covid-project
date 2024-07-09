@@ -24,9 +24,10 @@ This project extensively leveraged the powerful capabilities of **Python** to co
 - The distribution for 'total vaccinations' and 'people fully vaccinated' might be right-skewed because as vaccines become more widespread, more people accept and get vaccinated.
 
 3. **Adfuller test and autocorrelation:**
+<img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20corr.png">
 
    
-## 4- Model Selection
+## 4- Model Selection(ARIMA Model)
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/autoarima%20us.png">
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20model%20result.png">
 
