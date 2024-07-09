@@ -28,7 +28,7 @@ This project extensively leveraged the powerful capabilities of **Python** to co
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/us%20adf.png">
 
 ***Purpose:***
-  - The Augmented Dickey-Fuller (ADF) test is a common statistical test used to determine if a time series is stationary.
+  - The **Augmented Dickey-Fuller (ADF) test** is a common statistical test used to determine if a time series is **stationary**.
   - A stationary time series has a consistent mean and variance over time, making it easier to predict future values accurately.
   - In stationary time series, the autocorrelations between observations depend only on the lag between them and not on when they occur. This simplifies the modeling process and helps in making robust predictions.
     
@@ -59,7 +59,7 @@ This project extensively leveraged the powerful capabilities of **Python** to co
 <img width="1000" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/base%20case.png">
 <img width="1000" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/best%20case.png">
 
-- Best-Case Scenario: shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days is increased from the first day (282622 people get vaccinated) to the final day (2318170 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 20822310 people get vaccinated 
+- Best-Case Scenario: shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days increased from the first day (282622 people get vaccinated) to the final day (2318170 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 20822310 people get vaccinated 
 This best-case scenario data frame (right-side column) shows that the predicted total number of people who get vaccinated from the very beginning until the next 50 days is 248802500 for the whole period from the beginning to the next 50 days. 
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/worst%20case.png">
 
