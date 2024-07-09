@@ -4,7 +4,7 @@
 By analyzing the relationship and the trend between the **Covid-19 pandemic** and **vaccination rates** and projecting vaccination rates in the United States **over the next 50 days**, Public health officials can use the projections to develop or adjust vaccination policies and strategies, ensuring that resources are allocated efficiently and effectively. **Projections and scenario planning(best-case, worst-case)** can help prepare for **potential future waves of the pandemic** by ensuring that a significant portion of the population is vaccinated in time.
 
 ## 2- Technical Highlights
-This project extensively leveraged the powerful capabilities of **Python** to conduct a comprehensive range of tasks including meticulous data cleaning, sophisticated preprocessing techniques, intricate modeling, and creating detailed, insightful visualizations achieved by using **Pandas, Numpy, Scikit-learn, Matplotlib, and Seaborn** to handle and interpret the dataset effectively. For the model selection part, I chose auto **ARIMA Model(Auto-Regressive Integrated Moving Average)** to perform highly effectively for **time series analysis and forecasting**.
+This project extensively leveraged the powerful capabilities of **Python** to conduct a comprehensive range of tasks including meticulous data cleaning, sophisticated preprocessing techniques, intricate modeling, and creating detailed, insightful visualizations achieved by using **Pandas, Numpy, Scikit-learn, Matplotlib, and Seaborn** to handle and interpret the dataset effectively. For the model selection part, I chose auto **Auto-Regressive Integrated Moving Average(ARIMA)Model** to perform highly effectively for **time series analysis and forecasting**.
 
 ## 3- Statistical Analysis
 1. **Shapiro Wilk Test:** It measures how well the data fits a normal distribution. A value close to 1 indicates that the data will likely be normally distributed.
@@ -14,7 +14,7 @@ This project extensively leveraged the powerful capabilities of **Python** to co
 
 -   **p-value (0.0):** This is the probability of obtaining the observed test results under the null hypothesis (that the data is normally distributed). A small **p-value (≤ 0.05)** indicates strong evidence against the null hypothesis.
 
-2. **KS test:** 
+2. **Kolmogorov-Smirnov(KS) test:** 
 <img width="800" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/KS.png">
 
 - Because the Shapiro-Wilk test is more accurate for smaller sample sizes, I used another normality test like the **Kolmogorov-Smirnov test** to confirm the results.
