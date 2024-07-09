@@ -1,7 +1,7 @@
 # Covid-19 Vaccination Projecting Project
 
 ## 1- Business Goals Overview
-By analyzing the relationship and the trend between the **Covid-19 pandemic** and **vaccination rates** and projecting vaccination rates in the United States **over the next 50 days**, Public health officials can use the projections to develop or adjust vaccination policies and strategies, ensuring that resources are allocated efficiently and effectively. **Projections and scenario planning(best-case, worst-case)** can help in preparing for **potential future waves of the pandemic** by ensuring that a significant portion of the population is vaccinated in time.
+By analyzing the relationship and the trend between the **Covid-19 pandemic** and **vaccination rates** and projecting vaccination rates in the United States **over the next 50 days**, Public health officials can use the projections to develop or adjust vaccination policies and strategies, ensuring that resources are allocated efficiently and effectively. **Projections and scenario planning(best-case, worst-case)** can help prepare for **potential future waves of the pandemic** by ensuring that a significant portion of the population is vaccinated in time.
 
 ## 2- Technical Highlights
 This project extensively leveraged the powerful capabilities of **Python** to conduct a comprehensive range of tasks including meticulous data cleaning, sophisticated preprocessing techniques, intricate modeling, and creating detailed, insightful visualizations achieved by using **Pandas, Numpy, Scikit-learn, Matplotlib, and Seaborn** to handle and interpret the dataset effectively. For the model selection part, I chose auto **ARIMA Model(Auto-Regressive Integrated Moving Average)** to perform highly effectively for **time series analysis and forecasting**.
@@ -21,7 +21,7 @@ This project extensively leveraged the powerful capabilities of **Python** to co
   
 - P value ≤ confidential level, we have to reject the null, so I confirmed that Both cases are not normalized.
 
-- The distribution for 'total vaccinations' and 'people fully vaccinated' might be right-skewed because as vaccines become more widespread, more people are accepting and getting vaccinated.
+- The distribution for 'total vaccinations' and 'people fully vaccinated' might be right-skewed because as vaccines become more widespread, more people accept and get vaccinated.
 
 3. **Adfuller test and autocorrelation:**
 
