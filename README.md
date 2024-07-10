@@ -79,9 +79,9 @@ After choosing the most appropriate model, I made a forecast for the best case a
 
 <img width="1000" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/base%20case.png">
 
-***Base-Case Scenario:*** shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days will increase from the first day (282622 people get vaccinated) to the final day (1806515 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 8341135 people get vaccinated 
-This base scenario data frame (right-side column) shows that the predicted total number of people who get vaccinated from the  beginning until the next 50 days is 236321400 for the whole period from the beginning to the next 50 days. 
- 
+***Base-Case Scenario:*** shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days will increase from the first day (1806515 people get vaccinated) to the final day (8341135 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 8341135 people get vaccinated 
+This base-case scenario data frame (right-side column) shows that the predicted total number of people who get vaccinated from the very beginning until the next 50 days is 236321400 for the whole period from the very beginning to the next 50 days. 
+
 <img width="1000" alt="image" src="https://github.com/jh4581/resume-projects-portfolio.github.io/blob/main/images/covid%20project/best%20case.png">
 
 ***Best-Case Scenario:*** shows that we forecast that the number of people vaccinated (left-side column)in the next 50 days will increase from the first day (282622 people get vaccinated) to the final day (2318170 people get vaccinated in these 50 days. JUST IN THESE 50 DAYS), in other words, the from now on to the next 50 days, there will 20822310 people get vaccinated. 
